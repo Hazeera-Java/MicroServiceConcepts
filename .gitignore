@@ -1,0 +1,30 @@
+# Eclipse metadata
+.metadata/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse project files
+.classpath
+.project
+.settings/
+
+# Maven build output
+target/
+
+# Compiled Java files
+*.class
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment / secrets
+.env

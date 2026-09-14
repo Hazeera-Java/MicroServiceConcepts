@@ -31,4 +31,10 @@ public class GatewayConfig {
 
 		return route("tracking-service").route(path("/api/tracking/**"), http()).filter(lb("tracking-service")).build();
 	}
+
+	@Bean
+	public RouterFunction<ServerResponse> authRoute() {
+
+		return route("auth-service").route(path("/auth/**"), http()).filter(lb("auth-service")).build();
+	}
 }
